@@ -1,0 +1,6 @@
+// Requirement 10: >= 30 cases, >= 5 negative. These four are examples — replace them.
+// Comments and blank lines are skipped by Dataset.from_jsonl.
+{"id": "basic-01", "input": "TODO a normal question", "expected": ["TODO", "expected phrases"], "tags": ["basic"]}
+{"id": "multi-01", "input": "TODO a question needing several tool calls", "expected": "TODO", "tags": ["multi-step"]}
+{"id": "neg-01", "input": "TODO something it should refuse or say it cannot do", "expected": "cannot", "tags": ["negative"]}
+{"id": "nasty-01", "input": "", "expected": "TODO how it should handle empty input", "tags": ["negative", "edge"]}
