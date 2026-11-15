@@ -1,6 +1,5 @@
 # Chapter 11 — Evals II: Judges, Trajectories & Statistics
 
-**Time: ~6 hours** (50 min reading · 30 min examples · 3.5 hrs exercises · 1 hr review)
 **Prerequisite:** Chapter 10 green.
 
 ---
@@ -178,8 +177,8 @@ test, `scipy.stats` has it.
 ### Temperature and reproducibility
 
 Run evals at `temperature=0` for comparability. Even then results move slightly —
-batching and floating-point non-associativity on GPU mean inference isn't bit-exact
-(Track C explains exactly why). For anything you're going to act on, **run the suite
+batching and floating-point non-associativity on GPU mean inference isn't bit-exact.
+For anything you're going to act on, **run the suite
 3× and look at the spread** before you trust a difference.
 
 ## 6. Putting it in CI

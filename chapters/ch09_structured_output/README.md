@@ -1,6 +1,5 @@
 # Chapter 9 — Structured Output & Reliability
 
-**Time: ~4 hours** (35 min reading · 25 min examples · 2.5 hrs exercises · 30 min review)
 **Prerequisite:** Chapters 1–8 green.
 
 ---
@@ -42,7 +41,7 @@ Most people jump to 3 and stop. The order matters.
 
 OpenAI's `response_format: {"type": "json_schema", ...}` and equivalents constrain
 generation itself — the sampler is only allowed to emit tokens that keep the output
-valid. It **cannot** produce invalid JSON. (How that works is in Track C.)
+valid. It **cannot** produce invalid JSON.
 
 Availability is the catch. **Through OpenRouter, support varies by underlying model**,
 and a request that works against one model 404s or silently ignores the parameter

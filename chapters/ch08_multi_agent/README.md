@@ -1,6 +1,5 @@
 # Chapter 8 — Multi-Agent Systems
 
-**Time: ~6 hours** (45 min reading · 35 min examples · 3.5 hrs exercises · 1 hr review)
 **Prerequisite:** Chapters 1–7 green.
 
 ---

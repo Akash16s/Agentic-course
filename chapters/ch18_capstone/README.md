@@ -1,6 +1,5 @@
 # Chapter 18 — Capstone
 
-**Time: ~12 hours** over one or two weeks. This is a project, not a lesson.
 **Prerequisite:** Chapters 1–17 green.
 
 ---
@@ -47,26 +46,26 @@ least one irreversible action, and a question that genuinely needs several steps
 
 ## 2. Requirements
 
-Every item maps to a chapter. The acceptance suite checks the ones marked ✅.
+Every item maps to a chapter. The acceptance suite checks the ones marked "auto".
 
-| # | Requirement | Chapter | Checked |
+| # | Requirement | Chapter | Checked by suite |
 |---|---|---|---|
-| 1 | A provider shim with retries and cost tracking | 1 | ✅ |
-| 2 | At least 4 tools, schemas derived from signatures | 2 | ✅ |
-| 3 | An agent loop with **all** the stop conditions | 3 | ✅ |
-| 4 | Tool output bounded; context budgeted | 4 | ✅ |
-| 5 | Sessions that survive a restart | 5 | ✅ |
-| 6 | Long-term memory across sessions | 6 | ✅ |
+| 1 | A provider shim with retries and cost tracking | 1 | auto |
+| 2 | At least 4 tools, schemas derived from signatures | 2 | auto |
+| 3 | An agent loop with **all** the stop conditions | 3 | auto |
+| 4 | Tool output bounded; context budgeted | 4 | auto |
+| 5 | Sessions that survive a restart | 5 | auto |
+| 6 | Long-term memory across sessions | 6 | auto |
 | 7 | Planning **or** reflection, with a measured justification | 7 | |
 | 8 | Multi-agent **or** a written argument for why not | 8 | |
-| 9 | One structured output path with validation + repair | 9 | ✅ |
-| 10 | ≥ 30 eval cases, ≥ 5 negative, in JSONL | 10 | ✅ |
-| 11 | An LLM judge with a calibrated rubric, + trajectory checks | 11 | ✅ |
-| 12 | Tracing on every run, exported to JSONL | 12 | ✅ |
-| 13 | Caching, a circuit breaker, a rate limiter, a budget guard | 13 | ✅ |
-| 14 | Default-deny permissions; a sandbox; HITL on the irreversible action | 14 | ✅ |
-| 15 | An HTTP service: submit, poll, stream, and it survives a restart | 15 | ✅ |
-| 16 | At least one tool exposed over MCP **or** consumed from MCP | 16 | ✅ |
+| 9 | One structured output path with validation + repair | 9 | auto |
+| 10 | ≥ 30 eval cases, ≥ 5 negative, in JSONL | 10 | auto |
+| 11 | An LLM judge with a calibrated rubric, + trajectory checks | 11 | auto |
+| 12 | Tracing on every run, exported to JSONL | 12 | auto |
+| 13 | Caching, a circuit breaker, a rate limiter, a budget guard | 13 | auto |
+| 14 | Default-deny permissions; a sandbox; HITL on the irreversible action | 14 | auto |
+| 15 | An HTTP service: submit, poll, stream, and it survives a restart | 15 | auto |
+| 16 | At least one tool exposed over MCP **or** consumed from MCP | 16 | auto |
 | 17 | A written framework decision with reasons | 17 | |
 
 ### The three unchecked ones are the hardest
@@ -161,8 +160,3 @@ importantly, you know which parts of one you need.
 **A good final exercise:** open the source of a framework you have heard of, find
 its agent loop, and read it. It should take fifteen minutes and feel familiar. If
 it does, the course worked.
-
----
-
-**Next:** Track B — Deep Learning. The model has been a black box for eighteen
-chapters. Time to open it. `assignment1-basics` next door is where that starts.

@@ -1,6 +1,5 @@
 # Chapter 13b — Model Routing, Fallbacks & Cascades
 
-**Time: ~5 hours** (40 min reading · 25 min examples · 3 hrs exercises · 55 min review)
 **Prerequisite:** Chapters 1–13 green. This one leans on Chapter 13's circuit breaker
 and Chapters 10–11's evals.
 

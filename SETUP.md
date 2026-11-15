@@ -1,4 +1,4 @@
-# Setup — do this once (20 minutes)
+# Setup — do this once
 
 ## 1. Virtual environment
 
@@ -10,9 +10,6 @@ pip install -r requirements.txt
 ```
 
 Python 3.11+ is assumed. (If you already have a working `.venv/`, just activate it.)
-
-Worth installing `uv` at some point (`brew install uv`) since CS336 next door uses it,
-but nothing here requires it.
 
 Every time you open a new terminal for this course:
 ```bash
@@ -49,7 +46,7 @@ tool-calling-capable models with their prices. **Model IDs change.** If the defa
 
 ## 4. Budget
 
-The whole of Track A costs roughly **$3–15** in API spend if you use a cheap model for
+The whole course costs roughly **$3–15** in API spend if you use a cheap model for
 development. Habits that keep it near the bottom of that range:
 
 - Develop against a small model (`claude-haiku-4.5`, `gpt-4o-mini`, `gemini-2.0-flash`).

@@ -1,6 +1,5 @@
 # Chapter 3 — The ReAct Loop
 
-**Time: ~6 hours** (50 min reading · 40 min examples · 3.5 hrs exercises · 1 hr review)
 **Prerequisite:** Chapters 1–2 green.
 
 ---

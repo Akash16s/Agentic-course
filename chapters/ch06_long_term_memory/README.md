@@ -1,7 +1,6 @@
 # Chapter 6 — Long-Term Memory
 
-**Time: ~8 hours** (60 min reading · 45 min examples · 5 hrs exercises · 75 min review)
-**Prerequisite:** Chapters 1–5 green. This is the longest chapter. Split it over two sessions.
+**Prerequisite:** Chapters 1–5 green. This is the longest chapter.
 
 ---
 

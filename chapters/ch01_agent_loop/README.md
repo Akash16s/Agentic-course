@@ -1,7 +1,5 @@
 # Chapter 1 — The Agent Loop
 
-**Time: ~5 hours** (45 min reading · 30 min examples · 3 hrs exercises · 45 min review)
-
 ---
 
 ## After this chapter you can
@@ -224,7 +222,7 @@ parameters control how you pick from that distribution.
 - **`stop`** — list of strings that halt generation when produced.
 - **`seed`** — some providers accept it for reproducibility. Treat it as best-effort. LLM
   inference is not bit-reproducible in practice (batching and floating-point non-associativity
-  on GPU — you'll understand exactly why after Track C).
+  on GPU).
 
 **`finish_reason` is the field juniors ignore and seniors always check:**
 
@@ -273,7 +271,7 @@ Total input over 20 turns = 500 × (1+2+...+20) = 500 × 210 = **105,000 tokens*
 At $3/M input that's $0.32 per conversation. Ten thousand conversations a day = **$3,150/day**.
 That number is why Chapters 4, 5 and 13 exist.
 
-**Latency** splits into two phases (Track C goes deep on this):
+**Latency** splits into two phases:
 
 - **Prefill / TTFT** — processing your input. Fast and parallel; roughly flat in input size
   until you get to very long contexts. Typically 200ms–2s.

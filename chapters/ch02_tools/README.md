@@ -1,6 +1,5 @@
 # Chapter 2 — Tools & Function Calling
 
-**Time: ~6 hours** (50 min reading · 40 min examples · 3.5 hrs exercises · 1 hr review)
 **Prerequisite:** Chapter 1 green.
 
 ---

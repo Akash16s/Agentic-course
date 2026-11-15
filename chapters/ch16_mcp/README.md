@@ -1,6 +1,5 @@
 # Chapter 16 — MCP (Model Context Protocol)
 
-**Time: ~5 hours** (40 min reading · 30 min examples · 3 hrs exercises · 50 min review)
 **Prerequisite:** Chapters 1–15 green.
 
 ---

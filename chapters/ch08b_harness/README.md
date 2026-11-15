@@ -1,6 +1,5 @@
 # Chapter 8b — Agent Harness Patterns
 
-**Time: ~6 hours** (55 min reading · 25 min examples · 3.5 hrs exercises · 1 hr review)
 **Prerequisite:** Chapters 1–8 green.
 
 ---

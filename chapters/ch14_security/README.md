@@ -1,6 +1,5 @@
 # Chapter 14 — Security & Safety
 
-**Time: ~5 hours** (45 min reading · 30 min examples · 3 hrs exercises · 45 min review)
 **Prerequisite:** Chapters 1–13 green.
 
 ---

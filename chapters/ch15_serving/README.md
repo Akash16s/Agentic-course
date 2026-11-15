@@ -1,6 +1,5 @@
 # Chapter 15 — Serving & Scale
 
-**Time: ~8 hours** (55 min reading · 45 min examples · 5 hrs exercises · 1.5 hrs review)
 **Prerequisite:** Chapters 1–14 green. Second-longest chapter; split it over two sessions.
 
 ---

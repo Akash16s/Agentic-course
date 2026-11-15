@@ -1,6 +1,5 @@
 # Chapter 5 — Short-Term Memory
 
-**Time: ~5 hours** (40 min reading · 30 min examples · 3 hrs exercises · 50 min review)
 **Prerequisite:** Chapters 1–4 green.
 
 ---

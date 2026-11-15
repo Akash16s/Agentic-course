@@ -1,6 +1,5 @@
 # Chapter 6b — Retrieval Quality (Advanced RAG)
 
-**Time: ~6 hours** (60 min reading · 30 min examples · 3.5 hrs exercises · 60 min review)
 **Prerequisite:** Chapter 6 green. This is a bonus chapter: Chapter 7 does not depend on
 it, but every agent you build that reads documents does.
 

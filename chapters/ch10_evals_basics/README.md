@@ -1,6 +1,5 @@
 # Chapter 10 — Evals I: The Harness
 
-**Time: ~6 hours** (50 min reading · 30 min examples · 3.5 hrs exercises · 1 hr review)
 **Prerequisite:** Chapters 1–9 green.
 
 ---

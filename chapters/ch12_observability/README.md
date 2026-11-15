@@ -1,6 +1,5 @@
 # Chapter 12 — Observability & Tracing
 
-**Time: ~5 hours** (40 min reading · 30 min examples · 3 hrs exercises · 50 min review)
 **Prerequisite:** Chapters 1–11 green.
 
 ---
