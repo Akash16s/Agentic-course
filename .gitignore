@@ -8,3 +8,14 @@ venv/
 *.sqlite3
 .DS_Store
 traces/
+
+# private / local
+.env.*
+!.env.example
+.claude/
+*.log
+
+# caches
+.mypy_cache/
+.ruff_cache/
+.cache/
